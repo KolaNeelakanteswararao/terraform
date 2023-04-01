@@ -1,5 +1,6 @@
 provider "aws" {
-  profile    = "default"
+  AWS_ACCESS_ID="my_access_id"
+  AWS_SECRET_ACCESS_KEY="my_secret_key"
   region = "us-east-1"
 }
 
